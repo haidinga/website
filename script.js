@@ -10,7 +10,7 @@
      Telefonnummer der Boutique im internationalen Format, nur Ziffern
      (kein "+", keine Leerzeichen, keine führende "00").
      TODO: durch die echte Geschäftsnummer ersetzen. */
-  const WHATSAPP_NUMBER = "491234567890";
+  const WHATSAPP_NUMBER = "436764639210";
 
   /* 20 Platzhalterfarben ------------------------------------------------- */
   const COLORS = [

@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Vase Terra",
+    "description": "Handgetöpferte Vase aus mattem Steingut, glasiert in warmen Erdtönen.",
+    "price": 58.00,
+    "currency": "EUR",
+    "category": "Keramik"
+  },
+  {
+    "id": 2,
+    "name": "Leinenkissen Lin",
+    "description": "Kissenbezug aus gewaschenem Leinen, weich fallend und langlebig.",
+    "price": 34.00,
+    "currency": "EUR",
+    "category": "Textil"
+  },
+  {
+    "id": 3,
+    "name": "Duftkerze Cèdre",
+    "description": "Sojawachskerze mit Noten von Zeder, Bernstein und Vetiver. Brenndauer ca. 45 Stunden.",
+    "price": 29.00,
+    "currency": "EUR",
+    "category": "Duft"
+  },
+  {
+    "id": 4,
+    "name": "Tablett Chêne",
+    "description": "Serviertablett aus geöltem Eichenholz mit filigranen Griffmulden.",
+    "price": 64.00,
+    "currency": "EUR",
+    "category": "Holz"
+  },
+  {
+    "id": 5,
+    "name": "Teekanne Argile",
+    "description": "Teekanne aus Steinzeug mit integriertem Sieb, für losen Tee gefertigt.",
+    "price": 72.00,
+    "currency": "EUR",
+    "category": "Keramik"
+  },
+  {
+    "id": 6,
+    "name": "Plaid Nordique",
+    "description": "Plaid aus reiner Schurwolle, gewebt in einem ruhigen Zopfmuster.",
+    "price": 96.00,
+    "currency": "EUR",
+    "category": "Textil"
+  },
+  {
+    "id": 7,
+    "name": "Kerzenständer Laiton",
+    "description": "Dreiteiliges Set aus gebürstetem Messing, einzeln oder gruppiert einsetzbar.",
+    "price": 42.00,
+    "currency": "EUR",
+    "category": "Wohnaccessoire"
+  },
+  {
+    "id": 8,
+    "name": "Servietten-Set Lin",
+    "description": "Vier handgesäumte Stoffservietten aus reinem Leinen.",
+    "price": 26.00,
+    "currency": "EUR",
+    "category": "Textil"
+  }
+]

@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FORMA — Objekte für ruhige Räume</title>
+<meta name="description" content="Minimalistischer Onlineshop für handgefertigte Objekte aus Keramik, Leinen und Holz.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="#">FORMA</a>
+    <span class="tagline">Objekte für ruhige Räume</span>
+    <button class="icon-btn" id="cartToggle" aria-label="Warenkorb öffnen" aria-haspopup="true" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M6 7h15l-1.5 9.5a2 2 0 0 1-2 1.7H8.9a2 2 0 0 1-2-1.7L5 3H2"/>
+        <circle cx="10" cy="21" r="1"/>
+        <circle cx="18" cy="21" r="1"/>
+      </svg>
+      <span class="cart-count" id="cartCount">0</span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero container">
+    <p class="eyebrow">Kollektion 01</p>
+    <h1>Objekte für ruhige Räume.</h1>
+    <p class="hero-sub">Handgefertigte Stücke aus Ton, Leinen und Holz — reduziert in der Form, hochwertig in der Ausführung.</p>
+  </section>
+
+  <section class="products container" aria-label="Produkte">
+
+    <article class="product-card" style="--i:0">
+      <div class="product-image ph-1">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="4" width="18" height="16" rx="2"/>
+          <circle cx="9" cy="10" r="1.6"/>
+          <path d="M21 16l-5.5-5.5a1.5 1.5 0 0 0-2.1 0L5 19"/>
+        </svg>
+      </div>
+      <div class="product-info">
+        <h2 class="product-name">Vase Terra</h2>
+        <p class="product-desc">Handgetöpferte Vase aus mattem Steingut, glasiert in warmen Erdtönen.</p>
+        <div class="product-footer">
+          <span class="product-price">58,00&nbsp;€</span>
+          <button class="btn-cart" data-id="1" data-name="Vase Terra" data-price="58.00" data-ph="ph-1">Zum Warenkorb <span class="arrow">→</span></button>
+        </div>
+      </div>
+    </article>
+
+    <article class="product-card" style="--i:1">
+      <div class="product-image ph-2">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="4" width="18" height="16" rx="2"/>
+          <circle cx="9" cy="10" r="1.6"/>
+          <path d="M21 16l-5.5-5.5a1.5 1.5 0 0 0-2.1 0L5 19"/>
+        </svg>
+      </div>
+      <div class="product-info">
+        <h2 class="product-name">Leinenkissen Lin</h2>
+        <p class="product-desc">Kissenbezug aus gewaschenem Leinen, weich fallend und langlebig.</p>
+        <div class="product-footer">
+          <span class="product-price">34,00&nbsp;€</span>
+          <button class="btn-cart" data-id="2" data-name="Leinenkissen Lin" data-price="34.00" data-ph="ph-2">Zum Warenkorb <span class="arrow">→</span></button>
+        </div>
+      </div>
+    </article>
+
+    <article class="product-card" style="--i:2">
+      <div class="product-image ph-3">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="4" width="18" height="16" rx="2"/>
+          <circle cx="9" cy="10" r="1.6"/>
+          <path d="M21 16l-5.5-5.5a1.5 1.5 0 0 0-2.1 0L5 19"/>
+        </svg>
+      </div>
+      <div class="product-info">
+        <h2 class="product-name">Duftkerze Cèdre</h2>
+        <p class="product-desc">Sojawachskerze mit Noten von Zeder, Bernstein und Vetiver. Brenndauer ca. 45 Stunden.</p>
+        <div class="product-footer">
+          <span class="product-price">29,00&nbsp;€</span>
+          <button class="btn-cart" data-id="3" data-name="Duftkerze Cèdre" data-price="29.00" data-ph="ph-3">Zum Warenkorb <span class="arrow">→</span></button>
+        </div>
+      </div>
+    </article>
+
+    <article class="product-card" style="--i:3">
+      <div class="product-image ph-4">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="4" width="18" height="16" rx="2"/>
+          <circle cx="9" cy="10" r="1.6"/>
+          <path d="M21 16l-5.5-5.5a1.5 1.5 0 0 0-2.1 0L5 19"/>
+        </svg>
+      </div>
+      <div class="product-info">
+        <h2 class="product-name">Tablett Chêne</h2>
+        <p class="product-desc">Serviertablett aus geöltem Eichenholz mit filigranen Griffmulden.</p>
+        <div class="product-footer">
+          <span class="product-price">64,00&nbsp;€</span>
+          <button class="btn-cart" data-id="4" data-name="Tablett Chêne" data-price="64.00" data-ph="ph-4">Zum Warenkorb <span class="arrow">→</span></button>
+        </div>
+      </div>
+    </article>
+
+    <article class="product-card" style="--i:4">
+      <div class="product-image ph-5">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="4" width="18" height="16" rx="2"/>
+          <circle cx="9" cy="10" r="1.6"/>
+          <path d="M21 16l-5.5-5.5a1.5 1.5 0 0 0-2.1 0L5 19"/>
+        </svg>
+      </div>
+      <div class="product-info">
+        <h2 class="product-name">Teekanne Argile</h2>
+        <p class="product-desc">Teekanne aus Steinzeug mit integriertem Sieb, für losen Tee gefertigt.</p>
+        <div class="product-footer">
+          <span class="product-price">72,00&nbsp;€</span>
+          <button class="btn-cart" data-id="5" data-name="Teekanne Argile" data-price="72.00" data-ph="ph-5">Zum Warenkorb <span class="arrow">→</span></button>
+        </div>
+      </div>
+    </article>
+
+    <article class="product-card" style="--i:5">
+      <div class="product-image ph-6">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="4" width="18" height="16" rx="2"/>
+          <circle cx="9" cy="10" r="1.6"/>
+          <path d="M21 16l-5.5-5.5a1.5 1.5 0 0 0-2.1 0L5 19"/>
+        </svg>
+      </div>
+      <div class="product-info">
+        <h2 class="product-name">Plaid Nordique</h2>
+        <p class="product-desc">Plaid aus reiner Schurwolle, gewebt in einem ruhigen Zopfmuster.</p>
+        <div class="product-footer">
+          <span class="product-price">96,00&nbsp;€</span>
+          <button class="btn-cart" data-id="6" data-name="Plaid Nordique" data-price="96.00" data-ph="ph-6">Zum Warenkorb <span class="arrow">→</span></button>
+        </div>
+      </div>
+    </article>
+
+    <article class="product-card" style="--i:6">
+      <div class="product-image ph-7">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="4" width="18" height="16" rx="2"/>
+          <circle cx="9" cy="10" r="1.6"/>
+          <path d="M21 16l-5.5-5.5a1.5 1.5 0 0 0-2.1 0L5 19"/>
+        </svg>
+      </div>
+      <div class="product-info">
+        <h2 class="product-name">Kerzenständer Laiton</h2>
+        <p class="product-desc">Dreiteiliges Set aus gebürstetem Messing, einzeln oder gruppiert einsetzbar.</p>
+        <div class="product-footer">
+          <span class="product-price">42,00&nbsp;€</span>
+          <button class="btn-cart" data-id="7" data-name="Kerzenständer Laiton" data-price="42.00" data-ph="ph-7">Zum Warenkorb <span class="arrow">→</span></button>
+        </div>
+      </div>
+    </article>
+
+    <article class="product-card" style="--i:7">
+      <div class="product-image ph-8">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="4" width="18" height="16" rx="2"/>
+          <circle cx="9" cy="10" r="1.6"/>
+          <path d="M21 16l-5.5-5.5a1.5 1.5 0 0 0-2.1 0L5 19"/>
+        </svg>
+      </div>
+      <div class="product-info">
+        <h2 class="product-name">Servietten-Set Lin</h2>
+        <p class="product-desc">Vier handgesäumte Stoffservietten aus reinem Leinen.</p>
+        <div class="product-footer">
+          <span class="product-price">26,00&nbsp;€</span>
+          <button class="btn-cart" data-id="8" data-name="Servietten-Set Lin" data-price="26.00" data-ph="ph-8">Zum Warenkorb <span class="arrow">→</span></button>
+        </div>
+      </div>
+    </article>
+
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <span>© 2026 FORMA</span>
+    <span>Versand DE/AT/CH · Kontakt: hallo@forma-shop.de</span>
+  </div>
+</footer>
+
+<!-- Warenkorb: abgedunkelter Hintergrund -->
+<div class="overlay" id="cartOverlay"></div>
+
+<!-- Warenkorb: seitliches Panel -->
+<aside class="cart-drawer" id="cartDrawer" aria-hidden="true" aria-label="Warenkorb">
+  <div class="cart-header">
+    <h2>Warenkorb</h2>
+    <button class="icon-btn" id="cartClose" aria-label="Warenkorb schließen">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M6 6l12 12M18 6L6 18"/>
+      </svg>
+    </button>
+  </div>
+
+  <div class="cart-body" id="cartBody">
+    <p class="cart-empty" id="cartEmpty">Dein Warenkorb ist noch leer.</p>
+    <div class="cart-items" id="cartItems"></div>
+
+    <div class="checkout-form hidden" id="checkoutForm">
+      <h3 class="checkout-title">Deine Angaben</h3>
+
+      <div class="field-group">
+        <label class="field-label" for="customerName">Name <span class="field-required">*</span></label>
+        <input type="text" id="customerName" class="field-input" placeholder="Dein vollständiger Name" autocomplete="name">
+        <span class="field-error" id="nameError">Bitte gib deinen Namen an.</span>
+      </div>
+
+      <div class="field-group">
+        <label class="field-label" for="customerNote">Notiz <span class="field-optional">(optional)</span></label>
+        <textarea id="customerNote" class="field-textarea" rows="3" placeholder="z. B. Lieferhinweise oder Wünsche"></textarea>
+      </div>
+    </div>
+  </div>
+
+  <div class="cart-footer">
+    <div class="cart-total-row">
+      <span class="cart-total-label">Gesamtsumme</span>
+      <span class="cart-total-value" id="cartTotal">0,00&nbsp;€</span>
+    </div>
+    <button class="btn-checkout hidden" id="submitOrderBtn">Bestellung abschicken</button>
+  </div>
+</aside>
+
+<!-- Farbauswahl: abgedunkelter Hintergrund -->
+<div class="overlay" id="colorOverlay"></div>
+
+<!-- Farbauswahl-Dialog -->
+<div class="color-modal" id="colorModal" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Farbe auswählen">
+  <div class="color-modal-header">
+    <div>
+      <p class="color-modal-eyebrow">Farbe wählen</p>
+      <h3 class="color-modal-title" id="colorModalProduct">Produktname</h3>
+    </div>
+    <button class="icon-btn" id="colorClose" aria-label="Farbauswahl schließen">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M6 6l12 12M18 6L6 18"/>
+      </svg>
+    </button>
+  </div>
+  <div class="color-grid" id="colorGrid"></div>
+</div>
+
+<!-- Bestellbestätigung: abgedunkelter Hintergrund -->
+<div class="overlay" id="confirmOverlay"></div>
+
+<!-- Bestellbestätigung: Zusammenfassung vor dem Absenden -->
+<div class="confirm-modal" id="confirmModal" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Bestellung bestätigen">
+  <p class="color-modal-eyebrow">Bitte prüfen</p>
+  <h3 class="confirm-title">Bestellung bestätigen</h3>
+
+  <div class="confirm-details">
+    <div class="confirm-row">
+      <span class="confirm-row-label">Name</span>
+      <span class="confirm-row-value" id="confirmName"></span>
+    </div>
+    <div class="confirm-row confirm-row-note hidden" id="confirmNoteRow">
+      <span class="confirm-row-label">Notiz</span>
+      <span class="confirm-row-value" id="confirmNote"></span>
+    </div>
+  </div>
+
+  <div class="confirm-summary" id="confirmSummary"></div>
+
+  <div class="confirm-total-row">
+    <span class="cart-total-label">Gesamtsumme</span>
+    <span class="cart-total-value" id="confirmTotal">0,00&nbsp;€</span>
+  </div>
+
+  <div class="confirm-actions">
+    <button class="btn-secondary" id="confirmBack">Zurück</button>
+    <button class="btn-checkout" id="confirmSubmit">Bestellung bestätigen</button>
+  </div>
+</div>
+
+<!-- Erfolgsmeldung: abgedunkelter Hintergrund -->
+<div class="overlay" id="successOverlay"></div>
+
+<!-- Erfolgsmeldung nach erfolgreicher Bestellung -->
+<div class="success-modal" id="successModal" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Bestellung erfolgreich">
+  <div class="success-icon">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M5 13l4 4L19 7"/>
+    </svg>
+  </div>
+  <h3 class="success-title">Bestellung erfolgreich!</h3>
+  <p class="success-text" id="successText">Vielen Dank für deine Bestellung.</p>
+  <button class="btn-checkout" id="successClose">Fertig</button>
+</div>
+
+<!-- Toast-Benachrichtigung -->
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="script.js" defer></script>
+</body>
+</html>

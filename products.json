@@ -1,66 +1,98 @@
 [
   {
     "id": 1,
-    "name": "Vase Terra",
+    "name": "The Amore",
     "description": "Handgetöpferte Vase aus mattem Steingut, glasiert in warmen Erdtönen.",
-    "price": 58.00,
+    "price": 4,
     "currency": "EUR",
-    "category": "Keramik"
+    "category": "Vasen"
   },
   {
     "id": 2,
-    "name": "Leinenkissen Lin",
+    "name": "The Ripple",
     "description": "Kissenbezug aus gewaschenem Leinen, weich fallend und langlebig.",
-    "price": 34.00,
+    "price": 4,
     "currency": "EUR",
-    "category": "Textil"
+    "category": "Vasen"
   },
   {
     "id": 3,
-    "name": "Duftkerze Cèdre",
+    "name": "The Norde",
     "description": "Sojawachskerze mit Noten von Zeder, Bernstein und Vetiver. Brenndauer ca. 45 Stunden.",
-    "price": 29.00,
+    "price": 3,
     "currency": "EUR",
-    "category": "Duft"
+    "category": "Vasen"
   },
   {
     "id": 4,
-    "name": "Tablett Chêne",
+    "name": "The Harmony",
     "description": "Serviertablett aus geöltem Eichenholz mit filigranen Griffmulden.",
-    "price": 64.00,
+    "price": 3,
     "currency": "EUR",
-    "category": "Holz"
+    "category": "Vasen"
   },
   {
     "id": 5,
-    "name": "Teekanne Argile",
+    "name": "The Vanta",
     "description": "Teekanne aus Steinzeug mit integriertem Sieb, für losen Tee gefertigt.",
-    "price": 72.00,
+    "price": 4,
     "currency": "EUR",
-    "category": "Keramik"
+    "category": "Vasen"
   },
   {
     "id": 6,
-    "name": "Plaid Nordique",
+    "name": "Always Together",
     "description": "Plaid aus reiner Schurwolle, gewebt in einem ruhigen Zopfmuster.",
-    "price": 96.00,
+    "price": 3,
     "currency": "EUR",
-    "category": "Textil"
+    "category": "Schriftzüge"
   },
   {
     "id": 7,
-    "name": "Kerzenständer Laiton",
+    "name": "Ab hier bitte lächeln",
     "description": "Dreiteiliges Set aus gebürstetem Messing, einzeln oder gruppiert einsetzbar.",
-    "price": 42.00,
+    "price": 3,
     "currency": "EUR",
-    "category": "Wohnaccessoire"
+    "category": "Schriftzüge"
   },
   {
     "id": 8,
-    "name": "Servietten-Set Lin",
+    "name": "BeYOUtiful",
     "description": "Vier handgesäumte Stoffservietten aus reinem Leinen.",
-    "price": 26.00,
+    "price": 3,
     "currency": "EUR",
-    "category": "Textil"
-  }
+    "category": "Schriftzüge"
+  },
+]
+    "id": 9,
+    "name": "LiveLoveLaugh",
+    "description": "Vier handgesäumte Stoffservietten aus reinem Leinen.",
+    "price": 3,
+    "currency": "EUR",
+    "category": "Schriftzüge"
+  },
+]
+    "id": 10,
+    "name": "Lieblingsplatz",
+    "description": "Vier handgesäumte Stoffservietten aus reinem Leinen.",
+    "price": 3,
+    "currency": "EUR",
+    "category": "Schriftzüge"
+  },
+]
+    "id": 11,
+    "name": "Herzlich Willkommen",
+    "description": "Vier handgesäumte Stoffservietten aus reinem Leinen.",
+    "price": 3,
+    "currency": "EUR",
+    "category": "Schriftzüge"
+  },
+]
+    "id": 8,
+    "name": "BeYOUtiful",
+    "description": "Vier handgesäumte Stoffservietten aus reinem Leinen.",
+    "price": 3,
+    "currency": "EUR",
+    "category": "Schriftzüge"
+  },
 ]

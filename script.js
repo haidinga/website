@@ -14,7 +14,7 @@
 
   /* 20 Platzhalterfarben ------------------------------------------------- */
   const COLORS = [
-    { name: "Sandbeige",    hex: "#D8C9AE" },
+    { name: "Rot",          hex: "#990000" },
     { name: "Terrakotta",   hex: "#C77B52" },
     { name: "Olivgrün",     hex: "#7C8363" },
     { name: "Anthrazit",    hex: "#3B3A36" },
